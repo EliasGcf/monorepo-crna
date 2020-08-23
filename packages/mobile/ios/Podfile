@@ -78,7 +78,7 @@ target 'mobile' do
   pod 'glog', :podspec => '../../../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../../../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  use_unimodules!
+  use_unimodules!({ modules_paths: ['../../../node_modules'] })
   use_native_modules!
 
   # Enables Flipper.
