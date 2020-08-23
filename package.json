@@ -1,0 +1,12 @@
+{
+  "name": "monorepo-crna",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Elias Gabriel <eliasgabrielcf@gmail.com>",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
